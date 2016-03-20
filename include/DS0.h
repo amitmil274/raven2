@@ -75,6 +75,7 @@ struct orientation {
   int pitch;
   int roll;
   int grasp;   // integer.  Keep in miliradians
+  int grasp_vel;
 };
 
 enum jointState{

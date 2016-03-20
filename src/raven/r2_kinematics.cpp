@@ -140,6 +140,7 @@ int r2_fwd_kin(struct device *d0, int runlevel)
 
 		double wrist2          = (d0->mech[m].joint[GRASP2].jpos - d0->mech[m].joint[GRASP1].jpos) / 2.0;
 		d0->mech[m].ori.grasp  = (d0->mech[m].joint[GRASP2].jpos + d0->mech[m].joint[GRASP1].jpos) * 1000;
+		d0->mech[m].ori.grasp_vel  = (d0->mech[m].joint[GRASP2].jvel + d0->mech[m].joint[GRASP1].jvel) * 1000;
 
 		double joints[6] = {
 				d0->mech[m].joint[SHOULDER].jpos,

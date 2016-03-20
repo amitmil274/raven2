@@ -78,7 +78,6 @@ struct device device1;
 */
 //struct sockaddr_in server;
 struct v_struct v;
-
 int initSock (const char* port)
 {
     int request_sock;

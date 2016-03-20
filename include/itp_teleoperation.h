@@ -125,6 +125,7 @@ struct v_struct {
     double Qwd[2];
     double grasp[2];
     double graspd[2];
+    double grasp_vel[2];
 
 }__attribute__((__packed__));
 

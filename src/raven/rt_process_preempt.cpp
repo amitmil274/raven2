@@ -156,6 +156,8 @@ void populateVS()
 	v.py[i]=(double)device0.mech[i].pos.y/ (1000.0*1000.0);
 	v.pz[i]=(double)device0.mech[i].pos.z/ (1000.0*1000.0);
 	v.grasp[i]=(double)device0.mech[i].ori.grasp/1000;
+	v.grasp_vel[i]=(double)device0.mech[i].ori.grasp_vel/1000;
+
 	//R=device0.mech[i].ori.R;error:
 
 	temp.setValue(device0.mech[i].ori.R[0][0],device0.mech[i].ori.R[0][1],device0.mech[i].ori.R[0][2],
