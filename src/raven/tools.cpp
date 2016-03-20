@@ -37,10 +37,10 @@ void tool::set_tool_data() {
 void tool::set_limits() {
 	switch (t_end) {
 	case r_grasper:
-		rot_max_angle = 330 DEG2RAD;
-		rot_min_angle = -330 DEG2RAD; //might not be correct
-		rot_max_limit = 182 DEG2RAD;
-		rot_min_limit = -182 DEG2RAD;
+		rot_max_angle = 450 DEG2RAD;
+		rot_min_angle = -450 DEG2RAD; //might not be correct
+		rot_max_limit = 360 DEG2RAD;
+		rot_min_limit = -360 DEG2RAD;
 
 		wrist_max_angle = 115 DEG2RAD;
 		wrist_min_angle = -115 DEG2RAD;
@@ -49,13 +49,13 @@ void tool::set_limits() {
 
 		grasp1_max_angle = 120 DEG2RAD;
 		grasp1_min_angle = -120 DEG2RAD;
-		grasp1_max_limit = 85 DEG2RAD;
-		grasp1_min_limit = -85 DEG2RAD;
+		grasp1_max_limit = 110 DEG2RAD;
+		grasp1_min_limit = -110 DEG2RAD;
 
 		grasp2_max_angle = 120 DEG2RAD;
 		grasp2_min_angle = -120 DEG2RAD;
-		grasp2_max_limit = 85 DEG2RAD;
-		grasp2_min_limit = -85 DEG2RAD;
+		grasp2_max_limit = 110 DEG2RAD;
+		grasp2_min_limit = -110 DEG2RAD;
 		break;
 
 	case r_sq_grasper:
@@ -384,7 +384,7 @@ void tool::set_DH_params() {
 void tool::set_max_opening_angle() {
 	switch (t_end) {
 	case r_grasper:
-		max_opening_angle = 120 DEG2RAD;
+		max_opening_angle = 180 DEG2RAD;
 		break;
 
 	case r_sq_grasper:

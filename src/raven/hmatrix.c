@@ -8,7 +8,7 @@
 #include <math.h>
 #include <stdio.h>
 #include "hmatrix.h"
-
+//limit reached
 //Mul matrices 4x4 A*B=C
 void mulMatrix(float A[HMATRIX_SIZE][HMATRIX_SIZE], float B[HMATRIX_SIZE][HMATRIX_SIZE], float C[HMATRIX_SIZE][HMATRIX_SIZE])
 {

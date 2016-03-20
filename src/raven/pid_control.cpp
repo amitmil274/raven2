@@ -42,6 +42,8 @@
  */
 
 #include <stdlib.h>
+#include <stdio.h>
+#include <iostream>
 #include "pid_control.h"
 #include "log.h"
 #include "utils.h"

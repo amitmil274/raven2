@@ -293,6 +293,7 @@ void updateMasterRelativeOrigin(struct device *device0)
         data1.xd[i].y = device0->mech[i].pos_d.y;
         data1.xd[i].z = device0->mech[i].pos_d.z;
         _ori = &(device0->mech[i].ori_d);
+        data1.rd[i].grasp = _ori->grasp; //AMIT - B/C ABSOLUTE GRASP
 
 
         for (int j=0;j<3;j++)

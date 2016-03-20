@@ -33,6 +33,7 @@
 
 // TOOLS defines
 #include "tool.h"
+#include "defines.h"
 
 #ifdef DV_ADAPTER
 const e_tool_type use_tool = dv_adapter;
@@ -451,14 +452,16 @@ int init_ravengains(ros::NodeHandle n, struct device *device0)
     else
     {
         bool initgold=0, initgreen=0;
-        for (int i = 0; i < NUM_MECH; i++)
+        //for (int i = 0; i < NUM_MECH; i++)
+                for (int i = 0; i < 2; i++)
+        
         {
             for (int j = 0; j < MAX_DOF_PER_MECH; j++)
             {
                 int dofindex;
 
                 // Set gains for gold and green arms
-                if ( device0->mech[i].type == GOLD_ARM)
+                if ( i==0) //    if ( device0->mech[i].type == GOLD_ARM)
                 {
                     initgold=true;
                     dofindex = j;
@@ -466,7 +469,7 @@ int init_ravengains(ros::NodeHandle n, struct device *device0)
                     DOF_types[dofindex].KD = (double)kd_gold[j];   //   ""
                     DOF_types[dofindex].KI = (double)ki_gold[j];   //   ""
                 }
-                else if ( device0->mech[i].type == GREEN_ARM)
+                else //if ( device0->mech[i].type == GREEN_ARM)
                 {
                     initgreen=true;
                     dofindex = 1 * MAX_DOF_PER_MECH + j;
@@ -474,18 +477,18 @@ int init_ravengains(ros::NodeHandle n, struct device *device0)
                     DOF_types[dofindex].KD = (double)kd_green[j];  //   ""
                     DOF_types[dofindex].KI = (double)ki_green[j];  //   ""
                 }
-                else
-                {
-                    ROS_ERROR("What device is this?? %d\n",device0->mech[i].type);
-                }
+       //         else
+//                {
+  //                  ROS_ERROR("What device is this?? %d\n",device0->mech[i].type);
+    //            }
             }
         }
-        if (!initgold){
-            ROS_ERROR("Failed to set gains for gold arm (ser:%d not %d).  Set to zero", device0->mech[0].type, GOLD_ARM);
-        }
-        if (!initgreen){
-            ROS_ERROR("Failed to set gains for green arm (ser:%d not %d).  Set to zero", device0->mech[1].type, GREEN_ARM);
-        }
+      //  if (!initgold){
+//            ROS_ERROR("Failed to set gains for gold arm (ser:%d not %d).  Set to zero", device0->mech[0].type, GOLD_ARM);
+//        }
+//        if (!initgreen){
+//            ROS_ERROR("Failed to set gains for green arm (ser:%d not %d).  Set to zero", device0->mech[1].type, GREEN_ARM);
+//        }
         log_msg("  PD gains set to");
         log_msg("    gold: %.3lf/%.3lf/%.3lf, %.3lf/%.3lf/%.3lf, %.3lf/%.3lf/%.3lf, %.3lf/%.3lf/%.3lf, %.3lf/%.3lf/%.3lf, %.3lf/%.3lf/%.3lf, %.3lf/%.3lf/%.3lf, %.3lf/%.3lf/%.3lf",
             DOF_types[0].KP, DOF_types[0].KD, DOF_types[0].KI,

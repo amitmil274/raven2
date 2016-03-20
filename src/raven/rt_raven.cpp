@@ -239,7 +239,7 @@ int raven_cartesian_space_command(struct device *device0, struct param_pass *cur
     }
 
     TorqueToDAC(device0);
-
+//clearDAC
     return 0;
 }
 
