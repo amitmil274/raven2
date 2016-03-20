@@ -1,7 +1,7 @@
 ; Auto-generated. Do not edit!
 
 
-(cl:in-package raven_2-msg)
+(cl:in-package raven_BGU-msg)
 
 
 ;//! \htmlinclude raven_state.msg.html
@@ -115,106 +115,106 @@
 (cl:defmethod cl:initialize-instance :after ((m <raven_state>) cl:&rest args)
   (cl:declare (cl:ignorable args))
   (cl:unless (cl:typep m 'raven_state)
-    (roslisp-msg-protocol:msg-deprecation-warning "using old message class name raven_2-msg:<raven_state> is deprecated: use raven_2-msg:raven_state instead.")))
+    (roslisp-msg-protocol:msg-deprecation-warning "using old message class name raven_BGU-msg:<raven_state> is deprecated: use raven_BGU-msg:raven_state instead.")))
 
 (cl:ensure-generic-function 'hdr-val :lambda-list '(m))
 (cl:defmethod hdr-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:hdr-val is deprecated.  Use raven_2-msg:hdr instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:hdr-val is deprecated.  Use raven_BGU-msg:hdr instead.")
   (hdr m))
 
 (cl:ensure-generic-function 'runlevel-val :lambda-list '(m))
 (cl:defmethod runlevel-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:runlevel-val is deprecated.  Use raven_2-msg:runlevel instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:runlevel-val is deprecated.  Use raven_BGU-msg:runlevel instead.")
   (runlevel m))
 
 (cl:ensure-generic-function 'sublevel-val :lambda-list '(m))
 (cl:defmethod sublevel-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:sublevel-val is deprecated.  Use raven_2-msg:sublevel instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:sublevel-val is deprecated.  Use raven_BGU-msg:sublevel instead.")
   (sublevel m))
 
 (cl:ensure-generic-function 'last_seq-val :lambda-list '(m))
 (cl:defmethod last_seq-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:last_seq-val is deprecated.  Use raven_2-msg:last_seq instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:last_seq-val is deprecated.  Use raven_BGU-msg:last_seq instead.")
   (last_seq m))
 
 (cl:ensure-generic-function 'type-val :lambda-list '(m))
 (cl:defmethod type-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:type-val is deprecated.  Use raven_2-msg:type instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:type-val is deprecated.  Use raven_BGU-msg:type instead.")
   (type m))
 
 (cl:ensure-generic-function 'pos-val :lambda-list '(m))
 (cl:defmethod pos-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:pos-val is deprecated.  Use raven_2-msg:pos instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:pos-val is deprecated.  Use raven_BGU-msg:pos instead.")
   (pos m))
 
 (cl:ensure-generic-function 'ori-val :lambda-list '(m))
 (cl:defmethod ori-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:ori-val is deprecated.  Use raven_2-msg:ori instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:ori-val is deprecated.  Use raven_BGU-msg:ori instead.")
   (ori m))
 
 (cl:ensure-generic-function 'ori_d-val :lambda-list '(m))
 (cl:defmethod ori_d-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:ori_d-val is deprecated.  Use raven_2-msg:ori_d instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:ori_d-val is deprecated.  Use raven_BGU-msg:ori_d instead.")
   (ori_d m))
 
 (cl:ensure-generic-function 'pos_d-val :lambda-list '(m))
 (cl:defmethod pos_d-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:pos_d-val is deprecated.  Use raven_2-msg:pos_d instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:pos_d-val is deprecated.  Use raven_BGU-msg:pos_d instead.")
   (pos_d m))
 
 (cl:ensure-generic-function 'dt-val :lambda-list '(m))
 (cl:defmethod dt-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:dt-val is deprecated.  Use raven_2-msg:dt instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:dt-val is deprecated.  Use raven_BGU-msg:dt instead.")
   (dt m))
 
 (cl:ensure-generic-function 'encVals-val :lambda-list '(m))
 (cl:defmethod encVals-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:encVals-val is deprecated.  Use raven_2-msg:encVals instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:encVals-val is deprecated.  Use raven_BGU-msg:encVals instead.")
   (encVals m))
 
 (cl:ensure-generic-function 'tau-val :lambda-list '(m))
 (cl:defmethod tau-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:tau-val is deprecated.  Use raven_2-msg:tau instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:tau-val is deprecated.  Use raven_BGU-msg:tau instead.")
   (tau m))
 
 (cl:ensure-generic-function 'mpos-val :lambda-list '(m))
 (cl:defmethod mpos-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:mpos-val is deprecated.  Use raven_2-msg:mpos instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:mpos-val is deprecated.  Use raven_BGU-msg:mpos instead.")
   (mpos m))
 
 (cl:ensure-generic-function 'jpos-val :lambda-list '(m))
 (cl:defmethod jpos-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:jpos-val is deprecated.  Use raven_2-msg:jpos instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:jpos-val is deprecated.  Use raven_BGU-msg:jpos instead.")
   (jpos m))
 
 (cl:ensure-generic-function 'mvel-val :lambda-list '(m))
 (cl:defmethod mvel-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:mvel-val is deprecated.  Use raven_2-msg:mvel instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:mvel-val is deprecated.  Use raven_BGU-msg:mvel instead.")
   (mvel m))
 
 (cl:ensure-generic-function 'jvel-val :lambda-list '(m))
 (cl:defmethod jvel-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:jvel-val is deprecated.  Use raven_2-msg:jvel instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:jvel-val is deprecated.  Use raven_BGU-msg:jvel instead.")
   (jvel m))
 
 (cl:ensure-generic-function 'mpos_d-val :lambda-list '(m))
 (cl:defmethod mpos_d-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:mpos_d-val is deprecated.  Use raven_2-msg:mpos_d instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:mpos_d-val is deprecated.  Use raven_BGU-msg:mpos_d instead.")
   (mpos_d m))
 
 (cl:ensure-generic-function 'jpos_d-val :lambda-list '(m))
 (cl:defmethod jpos_d-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:jpos_d-val is deprecated.  Use raven_2-msg:jpos_d instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:jpos_d-val is deprecated.  Use raven_BGU-msg:jpos_d instead.")
   (jpos_d m))
 
 (cl:ensure-generic-function 'grasp_d-val :lambda-list '(m))
 (cl:defmethod grasp_d-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:grasp_d-val is deprecated.  Use raven_2-msg:grasp_d instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:grasp_d-val is deprecated.  Use raven_BGU-msg:grasp_d instead.")
   (grasp_d m))
 
 (cl:ensure-generic-function 'encoffsets-val :lambda-list '(m))
 (cl:defmethod encoffsets-val ((m <raven_state>))
-  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_2-msg:encoffsets-val is deprecated.  Use raven_2-msg:encoffsets instead.")
+  (roslisp-msg-protocol:msg-deprecation-warning "Using old-style slot reader raven_BGU-msg:encoffsets-val is deprecated.  Use raven_BGU-msg:encoffsets instead.")
   (encoffsets m))
 (cl:defmethod roslisp-msg-protocol:serialize ((msg <raven_state>) ostream)
   "Serializes a message object of type '<raven_state>"
@@ -512,10 +512,10 @@
 )
 (cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql '<raven_state>)))
   "Returns string type for a message object of type '<raven_state>"
-  "raven_2/raven_state")
+  "raven_BGU/raven_state")
 (cl:defmethod roslisp-msg-protocol:ros-datatype ((msg (cl:eql 'raven_state)))
   "Returns string type for a message object of type 'raven_state"
-  "raven_2/raven_state")
+  "raven_BGU/raven_state")
 (cl:defmethod roslisp-msg-protocol:md5sum ((type (cl:eql '<raven_state>)))
   "Returns md5sum for a message object of type '<raven_state>"
   "173f52385e84b98995f307af4bea25a2")
@@ -524,10 +524,10 @@
   "173f52385e84b98995f307af4bea25a2")
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql '<raven_state>)))
   "Returns full string definition for message of type '<raven_state>"
-  (cl:format cl:nil "Header      hdr~%int32       runlevel~%int32       sublevel~%int32       last_seq~%int32[2]    type~%int32[6]    pos~%float32[18]   ori~%float32[18]   ori_d~%int32[6]    pos_d~%duration    dt~%int32[16]   encVals~%float32[16] tau~%float32[16] mpos~%float32[16] jpos~%float32[16] mvel~%float32[16] jvel~%float32[16] mpos_d~%float32[16] jpos_d~%float32[2]  grasp_d~%float32[16] encoffsets~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.secs: seconds (stamp_secs) since epoch~%# * stamp.nsecs: nanoseconds since stamp_secs~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%~%"))
+  (cl:format cl:nil "Header      hdr~%int32       runlevel~%int32       sublevel~%int32       last_seq~%int32[2]    type~%int32[6]    pos~%float32[18]   ori~%float32[18]   ori_d~%int32[6]    pos_d~%duration    dt~%int32[16]   encVals~%float32[16] tau~%float32[16] mpos~%float32[16] jpos~%float32[16] mvel~%float32[16] jvel~%float32[16] mpos_d~%float32[16] jpos_d~%float32[2]  grasp_d~%float32[16] encoffsets~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:message-definition ((type (cl:eql 'raven_state)))
   "Returns full string definition for message of type 'raven_state"
-  (cl:format cl:nil "Header      hdr~%int32       runlevel~%int32       sublevel~%int32       last_seq~%int32[2]    type~%int32[6]    pos~%float32[18]   ori~%float32[18]   ori_d~%int32[6]    pos_d~%duration    dt~%int32[16]   encVals~%float32[16] tau~%float32[16] mpos~%float32[16] jpos~%float32[16] mvel~%float32[16] jvel~%float32[16] mpos_d~%float32[16] jpos_d~%float32[2]  grasp_d~%float32[16] encoffsets~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.secs: seconds (stamp_secs) since epoch~%# * stamp.nsecs: nanoseconds since stamp_secs~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%~%"))
+  (cl:format cl:nil "Header      hdr~%int32       runlevel~%int32       sublevel~%int32       last_seq~%int32[2]    type~%int32[6]    pos~%float32[18]   ori~%float32[18]   ori_d~%int32[6]    pos_d~%duration    dt~%int32[16]   encVals~%float32[16] tau~%float32[16] mpos~%float32[16] jpos~%float32[16] mvel~%float32[16] jvel~%float32[16] mpos_d~%float32[16] jpos_d~%float32[2]  grasp_d~%float32[16] encoffsets~%~%================================================================================~%MSG: std_msgs/Header~%# Standard metadata for higher-level stamped data types.~%# This is generally used to communicate timestamped data ~%# in a particular coordinate frame.~%# ~%# sequence ID: consecutively increasing ID ~%uint32 seq~%#Two-integer timestamp that is expressed as:~%# * stamp.sec: seconds (stamp_secs) since epoch (in Python the variable is called 'secs')~%# * stamp.nsec: nanoseconds since stamp_secs (in Python the variable is called 'nsecs')~%# time-handling sugar is provided by the client library~%time stamp~%#Frame this data is associated with~%# 0: no frame~%# 1: global frame~%string frame_id~%~%~%"))
 (cl:defmethod roslisp-msg-protocol:serialization-length ((msg <raven_state>))
   (cl:+ 0
      (roslisp-msg-protocol:serialization-length (cl:slot-value msg 'hdr))

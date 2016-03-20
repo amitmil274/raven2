@@ -1,4 +1,4 @@
-(cl:in-package raven_2-msg)
+(cl:in-package raven_BGU-msg)
 (cl:export '(HDR-VAL
           HDR
           RUNLEVEL-VAL

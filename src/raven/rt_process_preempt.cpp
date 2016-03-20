@@ -387,8 +387,8 @@ int main(int argc, char **argv)
     }
 
   // init reconfigure
-  dynamic_reconfigure::Server<raven_2::MyStuffConfig> srv;
-  dynamic_reconfigure::Server<raven_2::MyStuffConfig>::CallbackType f;
+  dynamic_reconfigure::Server<raven_BGU::MyStuffConfig> srv;
+  dynamic_reconfigure::Server<raven_BGU::MyStuffConfig>::CallbackType f;
   f = boost::bind(&reconfigure_callback, _1, _2);
   srv.setCallback(f);
 

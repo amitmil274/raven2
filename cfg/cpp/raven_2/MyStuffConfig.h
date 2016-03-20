@@ -44,8 +44,8 @@
 // Author: Blaise Gassend
 
 
-#ifndef __raven_2__MYSTUFFCONFIG_H__
-#define __raven_2__MYSTUFFCONFIG_H__
+#ifndef __raven_BGU__MYSTUFFCONFIG_H__
+#define __raven_BGU__MYSTUFFCONFIG_H__
 
 #include <dynamic_reconfigure/config_tools.h>
 #include <limits>
@@ -54,7 +54,7 @@
 #include <dynamic_reconfigure/ParamDescription.h>
 #include <dynamic_reconfigure/config_init_mutex.h>
 
-namespace raven_2
+namespace raven_BGU
 {
   class MyStuffConfigStatics;
   

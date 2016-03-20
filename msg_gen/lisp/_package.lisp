@@ -1,4 +1,4 @@
-(cl:defpackage raven_2-msg
+(cl:defpackage raven_BGU-msg
   (:use )
   (:export
    "<RAVEN_STATE>"

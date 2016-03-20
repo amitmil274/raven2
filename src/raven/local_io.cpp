@@ -319,17 +319,17 @@ void updateMasterRelativeOrigin(struct device *device0)
 /// PUBLISH ROS DATA
 ///
 #include <tf/transform_datatypes.h>
-#include <raven_2/raven_state.h>
-#include <raven_2/raven_automove.h>
+#include <raven_BGU/raven_state.h>
+#include <raven_BGU/raven_automove.h>
 #include <visualization_msgs/Marker.h>
 #include <sensor_msgs/JointState.h>
 
 
 void publish_joints(struct robot_device*);
 void publish_marker(struct robot_device*);
-void autoincrCallback(raven_2::raven_automove);
+void autoincrCallback(raven_BGU::raven_automove);
 
-using namespace raven_2;
+using namespace raven_BGU;
 // Global publisher for raven data
 ros::Publisher pub_ravenstate;
 ros::Subscriber sub_automove;
@@ -370,7 +370,7 @@ int init_ravenstate_publishing(ros::NodeHandle &n){
  * \ingroup ROS
  *
  */
-void autoincrCallback(raven_2::raven_automove msg)
+void autoincrCallback(raven_BGU::raven_automove msg)
 {
   tf::Transform in_incr[2];
   tf::transformMsgToTF(msg.tf_incr[0], in_incr[0]);
