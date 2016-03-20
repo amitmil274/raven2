@@ -37,6 +37,7 @@
 #define TELEOPERATION_H
 #define SURGEON_ENGAGED       1
 #define SURGEON_DISENGAGED    0
+#pragma pack(1)
 
 /*
 u_struct : structure passed from master to slave.
@@ -87,7 +88,7 @@ fz            Z force
 runlevel      Slave operating state
 jointflags    bit flags for each joint limit (up to 16 joints).
 checksum
-*/
+
 struct v_struct {
 	unsigned int sequence;
 	unsigned int last_sequence;
@@ -99,6 +100,32 @@ struct v_struct {
 	int runlevel;
 	unsigned int  jointflags;
 	int checksum;
+}__attribute__((__packed__));
+*/
+
+// AMIT - NEW V struct
+struct v_struct {
+	unsigned int sequence;
+
+
+	double px[2];
+	double py[2];
+	double pz[2];
+	double pxd[2];
+	double pyd[2];
+	double pzd[2];
+
+	double Qx[2];
+    double Qy[2];
+    double Qz[2];
+    double Qw[2];
+    double Qxd[2];
+    double Qyd[2];
+    double Qzd[2];
+    double Qwd[2];
+    double grasp[2];
+    double graspd[2];
+
 }__attribute__((__packed__));
 
 #endif //teleoperation_h

@@ -65,7 +65,7 @@
 #include "network_layer.h"
 #include "parallel.h"
 #include "reconfigure.h"
-
+#include "itp_teleoperation.h"
 using namespace std;
 
 // Defines
@@ -94,7 +94,7 @@ pthread_t reconfigure_thread;
 
 //Global Variables from globals.c
 extern struct DOF_type DOF_types[];
-
+extern v_struct v;
 // flag to kill loops and stuff
 int r2_kill = 0;
 
@@ -143,6 +143,51 @@ int initialize_rt_memory_pool()
   return 0;
 }
 
+
+void populateVS()
+{
+	tf::Quaternion qtemp;
+	tf::Matrix3x3 temp;
+	float R[3][3];
+	for(int i=0;i<2;i++)
+	{
+		// current
+	v.px[i]=(double)device0.mech[i].pos.x/ (1000.0*1000.0);
+	v.py[i]=(double)device0.mech[i].pos.y/ (1000.0*1000.0);
+	v.pz[i]=(double)device0.mech[i].pos.z/ (1000.0*1000.0);
+	v.grasp[i]=(double)device0.mech[i].ori.grasp/1000;
+	//R=device0.mech[i].ori.R;error:
+
+	temp.setValue(device0.mech[i].ori.R[0][0],device0.mech[i].ori.R[0][1],device0.mech[i].ori.R[0][2],
+			device0.mech[i].ori.R[1][0],device0.mech[i].ori.R[1][1],device0.mech[i].ori.R[1][2],
+			device0.mech[i].ori.R[2][0],device0.mech[i].ori.R[2][1],device0.mech[i].ori.R[2][2]);
+	//temp.transpose();
+	temp.getRotation(qtemp);
+	v.Qx[i]=double(qtemp.getX());
+	v.Qy[i]=double(qtemp.getY());
+	v.Qz[i]=double(qtemp.getZ());
+	v.Qw[i]=double(qtemp.getW());
+	//desired
+	v.pxd[i]=(double)device0.mech[i].pos_d.x/ (1000.0*1000.0);
+	v.pyd[i]=(double)device0.mech[i].pos_d.y/ (1000.0*1000.0);
+	v.pzd[i]=(double)device0.mech[i].pos_d.z/ (1000.0*1000.0);
+	v.graspd[i]=(double)device0.mech[i].ori_d.grasp/1000;
+	temp.setValue(device0.mech[i].ori_d.R[0][0],device0.mech[i].ori_d.R[0][1],device0.mech[i].ori_d.R[0][2],
+				device0.mech[i].ori_d.R[1][0],device0.mech[i].ori_d.R[1][1],device0.mech[i].ori_d.R[1][2],
+				device0.mech[i].ori_d.R[2][0],device0.mech[i].ori_d.R[2][1],device0.mech[i].ori_d.R[2][2]);
+	temp.getRotation(qtemp);
+	v.Qxd[i]=double(qtemp.getX());
+	v.Qyd[i]=double(qtemp.getY());
+	v.Qzd[i]=double(qtemp.getZ());
+	v.Qwd[i]=double(qtemp.getW());
+	//v.roll[i]=(double)device0.mech[i].ori.roll;
+	//cout<<(double)device0.mech[i].ori.roll<<endl;
+	//v.pitch[i]=(double)device0.mech[i].ori.pitch;
+	//v.yaw[i]=(double)device0.mech[i].ori.yaw;
+	}
+
+	//v.graspd[1]=1;
+}
 /**
  * This is the real time thread.
  *
@@ -275,6 +320,8 @@ static void *rt_process(void* )
         {
 	  // Calculate Raven control
 	  controlRaven(&device0, &currParams);
+	  	  populateVS();
+	  
         }
       //////////////// END SURGICAL ROBOT CODE ///////////////////////////
 

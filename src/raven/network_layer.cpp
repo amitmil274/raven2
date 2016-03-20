@@ -55,6 +55,9 @@
 //#include <rtai_fifos.h>
 
 #include "itp_teleoperation.h"
+#include "rt_process_preempt.h"
+#include "rt_raven.h"
+#include "itp_teleoperation.h"
 #include "DS0.h"
 #include "DS1.h"
 #include "log.h"
@@ -64,7 +67,8 @@
 #define SERVER_ADDR  "128.95.205.206"    // used only if the robot needs to send data to the server
 
 extern int receiveUserspace(void *u,int size);  // Defined in the local_io.cpp
-
+extern struct device device0;//robot_device struct defined in DS0.h
+struct device device1;
 /**\fn int initSock (const char* port )
   \brief This function initializes a socket
   \param port is a constant character pointer
@@ -72,7 +76,10 @@ extern int receiveUserspace(void *u,int size);  // Defined in the local_io.cpp
 
   \ingroup Network
 */
-int initSock (const char* port )
+//struct sockaddr_in server;
+struct v_struct v;
+
+int initSock (const char* port)
 {
     int request_sock;
     struct servent *servp;       // stores port & protocol
@@ -144,7 +151,6 @@ int UDPChecksum(struct u_struct *u)
 // Chek packet validity, incl. sequence numbering and checksumming
 //int checkPacket(struct u_struct &u, int seq);
 // main //
-volatile struct v_struct v;
 
 
 /**\fn void* network_process(void*)
@@ -162,10 +168,12 @@ void* network_process(void* param1)
     static struct timeval timeout = { 0, 500000 }; // .5 sec //
     struct u_struct u;
 
+   //struct device copy_device;
+    int vSize=sizeof(struct v_struct);
     int uSize=sizeof(struct u_struct);
 
     struct sockaddr_in clientName;
-    int clientLength=sizeof(clientName);
+    unsigned int clientLength=sizeof(clientName);
     int retval;
     static int k = 0;
     int logFile;
@@ -174,6 +182,7 @@ void* network_process(void* param1)
     char logbuffer[100];
     unsigned int seq = 0;
     volatile int bytesread;
+    volatile int bytessent;
 
     // print some status messages
     log_msg("Starting network services...");
@@ -243,6 +252,7 @@ void* network_process(void* param1)
             fflush(stdout);
             continue;
         }
+        device1=device0;
 
         // Select: data on socket
         if (FD_ISSET( sock, &rmask))   // check whether the diescriptor sock is added to the fdset mask
@@ -251,14 +261,21 @@ void* network_process(void* param1)
                                  &u,
                                  uSize,
                                  0,
-                                 NULL,
-                                 NULL);
+                                  (struct sockaddr *)&clientName,
+                                 &clientLength);
+                                             v.sequence=u.sequence;
+                                          bytessent=sendto( sock,&v,vSize, 0,(struct sockaddr *)&clientName, clientLength);
+                                 
             if (bytesread != uSize){
                 ROS_ERROR("ERROR: Rec'd wrong ustruct size on socket!\n");
                 FD_CLR(sock, &rmask);   // remove the descriptor sock from fdset rmask
                 continue;
             }
-
+    if (bytessent != vSize){
+                         ROS_ERROR("ERROR: Rec'd wrong vvvstruct size on socket!\n");
+                          log_msg("%d\n",bytessent);   // remove the descriptor sock from fdset rmask
+                          continue;
+                      }
             if (k++ % 2000 == 0)
                 log_msg(".");
 
@@ -326,10 +343,10 @@ void* network_process(void* param1)
             }
         }
 
-#ifdef NET_SEND
+/* ifdef NET_SEND
         sendto ( sock, (void*)&v, vSize, 0,
                  (struct sockaddr *) &clientName, clientLength);
-#endif
+#endif */
 
     } // end while(ros::ok())
 
