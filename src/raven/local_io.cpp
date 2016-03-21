@@ -182,8 +182,10 @@ void teleopIntoDS1(struct u_struct *us_t)
                 data1.rd[i].R[j][k] = rot_mx_temp[j][k];
 
 /// AMIT - CHANGED TO ABSOLUTE GRASP
-		        const int graspmax = (3*M_PI/4 * 1000); // AMIT
-        const int graspmin = (-30.0 * 1000.0 DEG2RAD);
+	//	        const int graspmax = (3*M_PI/4 * 1000); // AMIT
+//        const int graspmin = (-30.0 * 1000.0 DEG2RAD);
+         const int graspmax = (M_PI * 1000); // AMIT
+        const int graspmin = (0.0 * 1000.0 DEG2RAD);
         data1.rd[i].grasp = us_t->grasp[armidx];
 		if (data1.rd[i].grasp>graspmax) 
 		{
@@ -293,7 +295,7 @@ void updateMasterRelativeOrigin(struct device *device0)
         data1.xd[i].y = device0->mech[i].pos_d.y;
         data1.xd[i].z = device0->mech[i].pos_d.z;
         _ori = &(device0->mech[i].ori_d);
-        data1.rd[i].grasp = _ori->grasp; //AMIT - B/C ABSOLUTE GRASP
+//        data1.rd[i].grasp = _ori->grasp; //AMIT - B/C ABSOLUTE GRASP
 
 
         for (int j=0;j<3;j++)

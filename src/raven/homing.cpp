@@ -366,7 +366,8 @@ void homing(struct DOF* _joint)
         case jstate_homing1:
             start_trajectory( _joint , DOF_types[_joint->type].home_position, 2.5 );
             _joint->state = jstate_homing2;
-break;
+			break;
+
         case jstate_homing2:
             // Move to start position
             // Update position trajectory
@@ -448,7 +449,8 @@ void homing(struct DOF* _joint, tool a_tool)
         case jstate_homing1:
             start_trajectory( _joint , DOF_types[_joint->type].home_position, 2.5 );
             _joint->state = jstate_homing2;
-break;
+			break;
+			
         case jstate_homing2:
             // Move to start position
             // Update position trajectory

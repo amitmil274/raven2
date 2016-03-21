@@ -453,8 +453,7 @@ int init_ravengains(ros::NodeHandle n, struct device *device0)
     {
         bool initgold=0, initgreen=0;
         //for (int i = 0; i < NUM_MECH; i++)
-                for (int i = 0; i < 2; i++)
-        
+        for (int i = 0; i < 2; i++)
         {
             for (int j = 0; j < MAX_DOF_PER_MECH; j++)
             {

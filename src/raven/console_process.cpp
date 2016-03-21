@@ -33,7 +33,8 @@
 
 #include "rt_process_preempt.h"
 #include "rt_raven.h"
-
+#include "itp_teleoperation.h"
+#include "network_layer.h"
 using namespace std;
 
 // from rt_process.cpp
@@ -43,7 +44,7 @@ extern unsigned long int gTime;//Defined in rt_process_preempt.cpp
 extern int soft_estopped;//Defined in rt_process_preempt.cpp
 extern struct DOF_type DOF_types[];//Defined in globals.cpp
 extern std::queue<char*> msgqueue; 
-
+extern v_struct v;
 void outputRobotState();
 int getkey();
 
@@ -233,7 +234,9 @@ void outputRobotState(){
         cout << "\t" << device0.mech[j].pos_d.z / (1000.0*1000.0);
         cout << ") :\t";
         cout << " Grasp/d:" << (double)device0.mech[j].ori.grasp/1000.0 << "/" << (double)device0.mech[j].ori_d.grasp / 1000.0 << "\n";
-//
+		v.grasp[j]=(double)device0.mech[j].ori.grasp/1000;
+        v.graspd[j]=(double)device0.mech[j].ori_d.grasp/1000;
+        cout<<v.grasp[j]<<"\n";
 //        cout<<"pos:\t";
 //        cout<<device0.mech[j].pos.x<<"\t";
 //        cout<<device0.mech[j].pos.y<<"\t";

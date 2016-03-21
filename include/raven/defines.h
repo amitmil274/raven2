@@ -154,7 +154,7 @@
 #define NO_CONNECTION_GREEN 11
 
 //Joint Scale Factors
-#define WRIST_SCALE_FACTOR (float)(1.5) /*used in update_device_state.c on incoming param*/
+#define WRIST_SCALE_FACTOR (float)(1) /*used in update_device_state.c on incoming param*/
 
 //Amplifier constants.
 #define K_DAC_PER_AMP_LOW_CURRENT   5461   // Empirically validated as the same as MFHD constant
