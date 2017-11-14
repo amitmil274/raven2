@@ -23,3 +23,5 @@ msg_gen/**
 .project
 .cproject
 .project
+
+src/raven/globals.cpp
