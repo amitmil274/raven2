@@ -1,6 +1,19 @@
-cmake_minimum_required(VERSION 2.4.6)
-include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
+cmake_minimum_required(VERSION 2.8.3)
+project(raven_catkin)
+#cmake_minimum_required(VERSION 2.4.6)
+#include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
+find_package(catkin REQUIRED COMPONENTS
+cmake_modules REQUIRED
+roscpp
+dynamic_reconfigure
+geometry_msgs
+std_msgs
+sensor_msgs
+rospy
+genmsg
+message_generation)
 
+#generate_dynamic_reconfigure_options(  cfg/PointGrey.cfg)
 # Set the build type.  Options are:
 #  Coverage       : w/ debug symbols, w/o optimization, w/ code-coverage
 #  Debug          : w/ debug symbols, w/o optimization
@@ -8,9 +21,6 @@ include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
 #  RelWithDebInfo : w/ debug symbols, w/ optimization
 #  MinSizeRel     : w/o debug symbols, w/ optimization, stripped binaries
 set(ROS_BUILD_TYPE RelWithDebInfo)
-
-rosbuild_init()
-
 #set the default path for built executables to the "bin" directory
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 #set the default path for built libraries to the "lib" directory
@@ -18,7 +28,9 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 
 #uncomment if you have defined messages
-rosbuild_genmsg()
+add_message_files(FILES raven_automove.msg raven_state.msg)
+generate_messages(DEPENDENCIES std_msgs geometry_msgs sensor_msgs)
+generate_dynamic_reconfigure_options(cfg/MyStuff.cfg)
 #uncomment if you have defined services
 #rosbuild_gensrv()
 
@@ -35,20 +47,23 @@ endif()
 #rosbuild_add_executable(example examples/example.cpp)
 #target_link_libraries(example ${PROJECT_NAME})
 
+include_directories(${catkin_INCLUDE_DIRS})
+include_directories(${Eigen_INCLUDE_DIRS})
+include_directories(include ${CATKIN_DEVEL_PREFIX}/include)
+include_directories(include ${CATKIN_DEVEL_PREFIX}/include/${PROJECT_NAME})
 include_directories(src/raven)
 include_directories(include)
 include_directories(include/raven)
 include_directories(/usr/local/eigen3)
-find_package(cmake_modules REQUIRED)
-find_package(Eigen REQUIRED)
-rosbuild_find_ros_package(dynamic_reconfigure)
-include(${dynamic_reconfigure_PACKAGE_PATH}/cmake/cfgbuild.cmake)
-gencfg()
+include_directories(include Eigen)
+include_directories(/opt/eigen3/cmake)
+#include(/opt/ros/kinetic/share/dynamic_reconfigure/cmake/cfgbuild.cmake)
+
 
 #set some compiler flags
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-unused-result -Wno-missing-field-initializers")
 
-rosbuild_add_executable(r2_control
+add_executable(r2_control
 #src/raven/asinw.cpp
 src/raven/dof.cpp
 src/raven/fwd_cable_coupling.cpp
@@ -90,3 +105,5 @@ src/raven/reconfigure.cpp
 src/raven/tools.cpp
 src/raven/r2_jacobian.cpp
 )
+target_link_libraries(r2_control ${catkin_LIBRARIES} ${PCL_LIBRARIES})
+
