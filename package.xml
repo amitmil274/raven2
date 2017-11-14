@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="2">
+  <description>raven_2</description>
+  <maintainer email="amitmil@bgu.ac.il">raven snow</maintainer>
+  <version>0.1.0</version>
+  <name>raven_2</name>
+  <license>BSD</license>
+  <url>http://ros.org/wiki/raven_2</url>
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>eigen</build_depend>
+ <build_depend>message_generation</build_depend>
+
+
+  <depend>std_msgs</depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>visualization_msgs</depend>
+  <depend>tf</depend>
+  <depend>dynamic_reconfigure</depend>
+  <depend>geometry_msgs</depend>
+
+
+  <export>
+	<cpp cflags="-I${prefix}/cfg/cpp/${package_name} -I${prefix}/include -I${prefix}/include/raven -Wno-unused-result -Wno-missing-field-initializers" lflags="-Lpthread -lrt"/>
+  </export>
+</package>
