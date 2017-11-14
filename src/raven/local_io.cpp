@@ -340,8 +340,8 @@ void setSurgeonMode(int pedalstate)
 /// PUBLISH ROS DATA
 ///
 #include <tf/transform_datatypes.h>
-#include <raven_2/raven_state.h>
-#include <raven_2/raven_automove.h>
+#include <raven_state.h>
+#include <raven_automove.h>
 #include <visualization_msgs/Marker.h>
 #include <sensor_msgs/JointState.h>
 
