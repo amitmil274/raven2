@@ -29,7 +29,7 @@
 #define R2_JACOBIAN_H_
 
 
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Dense>
 
 
 //#include "DS0.h"
