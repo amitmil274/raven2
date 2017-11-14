@@ -25,3 +25,4 @@ msg_gen/**
 .project
 
 src/raven/globals.cpp
+src/raven/globals.cpp
