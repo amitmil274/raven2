@@ -345,6 +345,7 @@ void setSurgeonMode(int pedalstate) {
 
 void publish_joints(robot_device *);
 void autoincrCallback(raven_2::raven_automove);
+void teleopCallback(raven_2::raven_automove msg);
 
 using namespace raven_2;
 // Global publisher for raven data
@@ -368,7 +369,10 @@ int init_ravenstate_publishing(ros::NodeHandle &n) {
       "ravenstate", 1);  //, ros::TransportHints().unreliable().tcpNoDelay() );
   joint_publisher = n.advertise<sensor_msgs::JointState>("joint_states", 1);
 
-  sub_automove = n.subscribe<raven_automove>("raven_automove", 1, autoincrCallback,
+  //sub_automove = n.subscribe<raven_automove>("raven_automove", 1, autoincrCallback,
+    //                                         ros::TransportHints().unreliable()
+      //                                                            .reliable());
+  sub_automove = n.subscribe<raven_automove>("raven_tester", 1, teleopCallback,
                                              ros::TransportHints().unreliable()
                                                                   .reliable());
 
@@ -428,6 +432,47 @@ void autoincrCallback(raven_2::raven_automove msg) {
   isUpdated = TRUE;
 }
 
+void teleopCallback(raven_2::raven_automove msg) {
+  tf::Transform in_incr[2];
+  tf::transformMsgToTF(msg.tf_incr[0], in_incr[0]);
+  tf::transformMsgToTF(msg.tf_incr[1], in_incr[1]);
+
+  pthread_mutex_lock(&data1Mutex);
+
+  // this function wants to loop through boards instead of mechanisms
+  // TODO:: loop over mechanisms instead?
+  int loops = USBBoards.activeAtStart;
+  int armidx;
+
+  for (int i = 0; i < loops; i++) {
+    if (USBBoards.boards[i] == GOLD_ARM_SERIAL) {
+      armidx = 0;
+    } else if (USBBoards.boards[i] == GREEN_ARM_SERIAL) {
+      armidx = 1;
+    } else if (USBBoards.boards[i] == JOINT_ENC_SERIAL) {
+      continue;  // don't do any teleop data for joint encoders
+    }
+
+    // add position increment
+    tf::Vector3 tmpvec = in_incr[armidx].getOrigin();
+    data1.xd[armidx].x = int(tmpvec[0]);
+    data1.xd[armidx].y = int(tmpvec[1]);
+    data1.xd[armidx].z = int(tmpvec[2]);
+    data1.rd[armidx].grasp = int(msg.grasp[armidx]);
+    //std::cout<<data1.rd[armidx].grasp << std::endl;
+    // add rotation increment
+    tf::Quaternion q_temp(in_incr[armidx].getRotation());
+    if (q_temp != tf::Quaternion::getIdentity()) {
+      Q_ori[armidx] = q_temp * Q_ori[armidx];
+      tf::Matrix3x3 rot_mx_temp(Q_ori[armidx]);
+      for (int j = 0; j < 3; j++)
+        for (int k = 0; k < 3; k++) data1.rd[armidx].R[j][k] = rot_mx_temp[j][k];
+    }
+  }
+
+  pthread_mutex_unlock(&data1Mutex);
+  isUpdated = TRUE;
+}
 /**
  * \brief Publishes the raven_state message from the robot and currParams
  *structures
@@ -473,6 +518,7 @@ void publish_ravenstate_ros(robot_device *dev, param_pass *currParams) {
     msg_ravenstate.pos_d[j * 3 + 1] = dev->mech[j].pos_d.y;
     msg_ravenstate.pos_d[j * 3 + 2] = dev->mech[j].pos_d.z;
     msg_ravenstate.grasp_d[j] = (float)dev->mech[j].ori_d.grasp / 1000;
+    msg_ravenstate.grasp[j] = (float)dev->mech[j].ori.grasp / 1000; //AMIT
 
     for (int orii = 0; orii < 3; orii++) {
       for (int orij = 0; orij < 3; orij++) {

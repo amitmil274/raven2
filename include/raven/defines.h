@@ -40,8 +40,8 @@
 
 //~~~~~~~~~ tool adapter definition ~~~~~~~~~~~~~~~~
 
-#define RAVEN_TOOLS
-//#define DV_ADAPTER			1
+//#define RAVEN_TOOLS
+#define DV_ADAPTER			1
 //#define RICKS_TOOLS     //skips tool initialization
 //#define SCISSOR_RIGHT
 #define OPPOSE_GRIP
@@ -49,8 +49,8 @@
 //~~~~~~~~~ USB Board definition ~~~~~~~~~~~~~~~~~~~
 // Two arm identification
 // Change this to match device ID in /dev/brl_usbXX
-#define GREEN_ARM_SERIAL 22
-#define GOLD_ARM_SERIAL 49
+#define GREEN_ARM_SERIAL 35
+#define GOLD_ARM_SERIAL 42
 
 #define JOINT_ENC_SERIAL 99  // 99 if no joint encoder board
 
@@ -61,7 +61,7 @@
                                        // CHOICES: BEGINNER, MODERATE, ADVANCED
 
 //~~~~~~~~ Other settings, experts only ~~~~~~~~~~~~
-#define NO_LPF  // This setting short circuits the Low Pass Filter in
+//#define NO_LPF  // This setting short circuits the Low Pass Filter in
                 // state_estimate.cpp
                 //#define OMNI_GAIN  2  // Get a little more oomph out of the omni grasping
 // button - sets a gain in local__io.cpp
@@ -167,7 +167,7 @@
 #define NO_CONNECTION_GREEN 11
 
 // Joint Scale Factors
-#define WRIST_SCALE_FACTOR (float)(1.5) /*used in update_device_state.c on incoming param*/
+#define WRIST_SCALE_FACTOR (float)(1.0) //AMIT CHANGED FROM 1.5 to 1.0 /*used in update_device_state.c on incoming param*/
 
 // Amplifier constants.
 #define K_DAC_PER_AMP_LOW_CURRENT \

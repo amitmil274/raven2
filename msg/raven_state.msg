@@ -17,6 +17,7 @@ float32[16] 	mvel
 float32[16] 	jvel
 float32[16] 	mpos_d
 float32[16] 	jpos_d
+float32[2]  	grasp
 float32[2]  	grasp_d
 float32[16] 	encoffsets
 float32[12] 	jac_vel
