@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raven/bgu_raven_comp/src
+CMAKE_SOURCE_DIR = /home/bgusigma/amit_raven/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raven/bgu_raven_comp/src
+CMAKE_BINARY_DIR = /home/bgusigma/amit_raven/src
 
 # Include any dependencies generated for this target.
 include raven2/CMakeFiles/r2_control.dir/depend.make
@@ -59,16 +59,16 @@ include raven2/CMakeFiles/r2_control.dir/flags.make
 
 raven2/CMakeFiles/r2_control.dir/src/raven/console_process.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/console_process.cpp.o: raven2/src/raven/console_process.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/console_process.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/console_process.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/console_process.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/console_process.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/console_process.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/console_process.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/console_process.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/console_process.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/console_process.cpp > CMakeFiles/r2_control.dir/src/raven/console_process.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/console_process.cpp > CMakeFiles/r2_control.dir/src/raven/console_process.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/console_process.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/console_process.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/console_process.cpp -o CMakeFiles/r2_control.dir/src/raven/console_process.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/console_process.cpp -o CMakeFiles/r2_control.dir/src/raven/console_process.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/console_process.cpp.o.requires:
 
@@ -83,16 +83,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/console_process.cpp.o.provides.build:
 
 raven2/CMakeFiles/r2_control.dir/src/raven/dof.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/dof.cpp.o: raven2/src/raven/dof.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/dof.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/dof.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/dof.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/dof.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/dof.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/dof.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/dof.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/dof.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/dof.cpp > CMakeFiles/r2_control.dir/src/raven/dof.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/dof.cpp > CMakeFiles/r2_control.dir/src/raven/dof.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/dof.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/dof.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/dof.cpp -o CMakeFiles/r2_control.dir/src/raven/dof.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/dof.cpp -o CMakeFiles/r2_control.dir/src/raven/dof.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/dof.cpp.o.requires:
 
@@ -107,16 +107,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/dof.cpp.o.provides.build: raven2/CMak
 
 raven2/CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.o: raven2/src/raven/fwd_cable_coupling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/fwd_cable_coupling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/fwd_cable_coupling.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/fwd_cable_coupling.cpp > CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/fwd_cable_coupling.cpp > CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/fwd_cable_coupling.cpp -o CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/fwd_cable_coupling.cpp -o CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.o.requires:
 
@@ -131,16 +131,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.o.provides.bui
 
 raven2/CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.o: raven2/src/raven/get_USB_packet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/get_USB_packet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/get_USB_packet.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/get_USB_packet.cpp > CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/get_USB_packet.cpp > CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/get_USB_packet.cpp -o CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/get_USB_packet.cpp -o CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.o.requires:
 
@@ -155,16 +155,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.o.provides.build: 
 
 raven2/CMakeFiles/r2_control.dir/src/raven/globals.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/globals.cpp.o: raven2/src/raven/globals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/globals.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/globals.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/globals.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/globals.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/globals.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/globals.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/globals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/globals.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/globals.cpp > CMakeFiles/r2_control.dir/src/raven/globals.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/globals.cpp > CMakeFiles/r2_control.dir/src/raven/globals.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/globals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/globals.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/globals.cpp -o CMakeFiles/r2_control.dir/src/raven/globals.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/globals.cpp -o CMakeFiles/r2_control.dir/src/raven/globals.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/globals.cpp.o.requires:
 
@@ -179,16 +179,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/globals.cpp.o.provides.build: raven2/
 
 raven2/CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.o: raven2/src/raven/grav_comp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/grav_comp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/grav_comp.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/grav_comp.cpp > CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/grav_comp.cpp > CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/grav_comp.cpp -o CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/grav_comp.cpp -o CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.o.requires:
 
@@ -203,16 +203,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.o.provides.build: raven
 
 raven2/CMakeFiles/r2_control.dir/src/raven/homing.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/homing.cpp.o: raven2/src/raven/homing.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/homing.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/homing.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/homing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/homing.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/homing.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/homing.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/homing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/homing.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/homing.cpp > CMakeFiles/r2_control.dir/src/raven/homing.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/homing.cpp > CMakeFiles/r2_control.dir/src/raven/homing.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/homing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/homing.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/homing.cpp -o CMakeFiles/r2_control.dir/src/raven/homing.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/homing.cpp -o CMakeFiles/r2_control.dir/src/raven/homing.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/homing.cpp.o.requires:
 
@@ -227,16 +227,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/homing.cpp.o.provides.build: raven2/C
 
 raven2/CMakeFiles/r2_control.dir/src/raven/init.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/init.cpp.o: raven2/src/raven/init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/init.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/init.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/init.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/init.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/init.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/init.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/init.cpp > CMakeFiles/r2_control.dir/src/raven/init.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/init.cpp > CMakeFiles/r2_control.dir/src/raven/init.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/init.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/init.cpp -o CMakeFiles/r2_control.dir/src/raven/init.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/init.cpp -o CMakeFiles/r2_control.dir/src/raven/init.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/init.cpp.o.requires:
 
@@ -251,16 +251,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/init.cpp.o.provides.build: raven2/CMa
 
 raven2/CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.o: raven2/src/raven/inv_cable_coupling.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/inv_cable_coupling.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/inv_cable_coupling.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/inv_cable_coupling.cpp > CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/inv_cable_coupling.cpp > CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/inv_cable_coupling.cpp -o CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/inv_cable_coupling.cpp -o CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.o.requires:
 
@@ -275,16 +275,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.o.provides.bui
 
 raven2/CMakeFiles/r2_control.dir/src/raven/local_io.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/local_io.cpp.o: raven2/src/raven/local_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/local_io.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/local_io.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/local_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/local_io.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/local_io.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/local_io.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/local_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/local_io.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/local_io.cpp > CMakeFiles/r2_control.dir/src/raven/local_io.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/local_io.cpp > CMakeFiles/r2_control.dir/src/raven/local_io.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/local_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/local_io.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/local_io.cpp -o CMakeFiles/r2_control.dir/src/raven/local_io.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/local_io.cpp -o CMakeFiles/r2_control.dir/src/raven/local_io.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/local_io.cpp.o.requires:
 
@@ -299,16 +299,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/local_io.cpp.o.provides.build: raven2
 
 raven2/CMakeFiles/r2_control.dir/src/raven/log.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/log.cpp.o: raven2/src/raven/log.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/log.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/log.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/log.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/log.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/log.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/log.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/log.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/log.cpp > CMakeFiles/r2_control.dir/src/raven/log.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/log.cpp > CMakeFiles/r2_control.dir/src/raven/log.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/log.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/log.cpp -o CMakeFiles/r2_control.dir/src/raven/log.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/log.cpp -o CMakeFiles/r2_control.dir/src/raven/log.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/log.cpp.o.requires:
 
@@ -323,16 +323,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/log.cpp.o.provides.build: raven2/CMak
 
 raven2/CMakeFiles/r2_control.dir/src/raven/mapping.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/mapping.cpp.o: raven2/src/raven/mapping.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/mapping.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/mapping.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/mapping.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/mapping.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/mapping.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/mapping.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/mapping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/mapping.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/mapping.cpp > CMakeFiles/r2_control.dir/src/raven/mapping.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/mapping.cpp > CMakeFiles/r2_control.dir/src/raven/mapping.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/mapping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/mapping.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/mapping.cpp -o CMakeFiles/r2_control.dir/src/raven/mapping.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/mapping.cpp -o CMakeFiles/r2_control.dir/src/raven/mapping.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/mapping.cpp.o.requires:
 
@@ -347,16 +347,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/mapping.cpp.o.provides.build: raven2/
 
 raven2/CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.o: raven2/src/raven/network_layer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/network_layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/network_layer.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/network_layer.cpp > CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/network_layer.cpp > CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/network_layer.cpp -o CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/network_layer.cpp -o CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.o.requires:
 
@@ -371,16 +371,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.o.provides.build: r
 
 raven2/CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.o: raven2/src/raven/overdrive_detect.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/overdrive_detect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/overdrive_detect.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/overdrive_detect.cpp > CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/overdrive_detect.cpp > CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/overdrive_detect.cpp -o CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/overdrive_detect.cpp -o CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.o.requires:
 
@@ -395,16 +395,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.o.provides.build
 
 raven2/CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.o: raven2/src/raven/pid_control.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/pid_control.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/pid_control.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/pid_control.cpp > CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/pid_control.cpp > CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/pid_control.cpp -o CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/pid_control.cpp -o CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.o.requires:
 
@@ -419,16 +419,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.o.provides.build: rav
 
 raven2/CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.o: raven2/src/raven/put_USB_packet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/put_USB_packet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/put_USB_packet.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/put_USB_packet.cpp > CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/put_USB_packet.cpp > CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/put_USB_packet.cpp -o CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/put_USB_packet.cpp -o CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.o.requires:
 
@@ -443,16 +443,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.o.provides.build: 
 
 raven2/CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.o: raven2/src/raven/r2_jacobian.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/r2_jacobian.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/r2_jacobian.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/r2_jacobian.cpp > CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/r2_jacobian.cpp > CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/r2_jacobian.cpp -o CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/r2_jacobian.cpp -o CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.o.requires:
 
@@ -467,16 +467,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.o.provides.build: rav
 
 raven2/CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.o: raven2/src/raven/r2_kinematics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/r2_kinematics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/r2_kinematics.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/r2_kinematics.cpp > CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/r2_kinematics.cpp > CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/r2_kinematics.cpp -o CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/r2_kinematics.cpp -o CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.o.requires:
 
@@ -491,16 +491,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.o.provides.build: r
 
 raven2/CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.o: raven2/src/raven/reconfigure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/reconfigure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/reconfigure.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/reconfigure.cpp > CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/reconfigure.cpp > CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/reconfigure.cpp -o CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/reconfigure.cpp -o CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.o.requires:
 
@@ -515,16 +515,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.o.provides.build: rav
 
 raven2/CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.o: raven2/src/raven/rt_process_preempt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/rt_process_preempt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/rt_process_preempt.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/rt_process_preempt.cpp > CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/rt_process_preempt.cpp > CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/rt_process_preempt.cpp -o CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/rt_process_preempt.cpp -o CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.o.requires:
 
@@ -539,16 +539,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.o.provides.bui
 
 raven2/CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.o: raven2/src/raven/rt_raven.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/rt_raven.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/rt_raven.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/rt_raven.cpp > CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/rt_raven.cpp > CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/rt_raven.cpp -o CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/rt_raven.cpp -o CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.o.requires:
 
@@ -563,16 +563,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.o.provides.build: raven2
 
 raven2/CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.o: raven2/src/raven/state_estimate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/state_estimate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/state_estimate.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/state_estimate.cpp > CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/state_estimate.cpp > CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/state_estimate.cpp -o CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/state_estimate.cpp -o CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.o.requires:
 
@@ -587,16 +587,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.o.provides.build: 
 
 raven2/CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.o: raven2/src/raven/state_machine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/state_machine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/state_machine.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/state_machine.cpp > CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/state_machine.cpp > CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/state_machine.cpp -o CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/state_machine.cpp -o CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.o.requires:
 
@@ -611,16 +611,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.o.provides.build: r
 
 raven2/CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.o: raven2/src/raven/t_to_DAC_val.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/t_to_DAC_val.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/t_to_DAC_val.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/t_to_DAC_val.cpp > CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/t_to_DAC_val.cpp > CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/t_to_DAC_val.cpp -o CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/t_to_DAC_val.cpp -o CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.o.requires:
 
@@ -635,16 +635,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.o.provides.build: ra
 
 raven2/CMakeFiles/r2_control.dir/src/raven/tools.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/tools.cpp.o: raven2/src/raven/tools.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/tools.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/tools.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/tools.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/tools.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/tools.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/tools.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/tools.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/tools.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/tools.cpp > CMakeFiles/r2_control.dir/src/raven/tools.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/tools.cpp > CMakeFiles/r2_control.dir/src/raven/tools.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/tools.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/tools.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/tools.cpp -o CMakeFiles/r2_control.dir/src/raven/tools.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/tools.cpp -o CMakeFiles/r2_control.dir/src/raven/tools.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/tools.cpp.o.requires:
 
@@ -659,16 +659,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/tools.cpp.o.provides.build: raven2/CM
 
 raven2/CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.o: raven2/src/raven/trajectory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/trajectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/trajectory.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/trajectory.cpp > CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/trajectory.cpp > CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/trajectory.cpp -o CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/trajectory.cpp -o CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.o.requires:
 
@@ -683,16 +683,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.o.provides.build: rave
 
 raven2/CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.o: raven2/src/raven/update_atmel_io.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/update_atmel_io.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/update_atmel_io.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/update_atmel_io.cpp > CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/update_atmel_io.cpp > CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/update_atmel_io.cpp -o CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/update_atmel_io.cpp -o CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.o.requires:
 
@@ -707,16 +707,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.o.provides.build:
 
 raven2/CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.o: raven2/src/raven/update_device_state.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/update_device_state.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/update_device_state.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/update_device_state.cpp > CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/update_device_state.cpp > CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/update_device_state.cpp -o CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/update_device_state.cpp -o CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.o.requires:
 
@@ -731,16 +731,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.o.provides.bu
 
 raven2/CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.o: raven2/src/raven/USB_init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/USB_init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/USB_init.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/USB_init.cpp > CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/USB_init.cpp > CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/USB_init.cpp -o CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/USB_init.cpp -o CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.o.requires:
 
@@ -755,16 +755,16 @@ raven2/CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.o.provides.build: raven2
 
 raven2/CMakeFiles/r2_control.dir/src/raven/utils.cpp.o: raven2/CMakeFiles/r2_control.dir/flags.make
 raven2/CMakeFiles/r2_control.dir/src/raven/utils.cpp.o: raven2/src/raven/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/utils.cpp.o"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/utils.cpp.o -c /home/raven/bgu_raven_comp/src/raven2/src/raven/utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object raven2/CMakeFiles/r2_control.dir/src/raven/utils.cpp.o"
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/r2_control.dir/src/raven/utils.cpp.o -c /home/bgusigma/amit_raven/src/raven2/src/raven/utils.cpp
 
 raven2/CMakeFiles/r2_control.dir/src/raven/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/r2_control.dir/src/raven/utils.cpp.i"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raven/bgu_raven_comp/src/raven2/src/raven/utils.cpp > CMakeFiles/r2_control.dir/src/raven/utils.cpp.i
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bgusigma/amit_raven/src/raven2/src/raven/utils.cpp > CMakeFiles/r2_control.dir/src/raven/utils.cpp.i
 
 raven2/CMakeFiles/r2_control.dir/src/raven/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/r2_control.dir/src/raven/utils.cpp.s"
-	cd /home/raven/bgu_raven_comp/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raven/bgu_raven_comp/src/raven2/src/raven/utils.cpp -o CMakeFiles/r2_control.dir/src/raven/utils.cpp.s
+	cd /home/bgusigma/amit_raven/src/raven2 && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bgusigma/amit_raven/src/raven2/src/raven/utils.cpp -o CMakeFiles/r2_control.dir/src/raven/utils.cpp.s
 
 raven2/CMakeFiles/r2_control.dir/src/raven/utils.cpp.o.requires:
 
@@ -813,68 +813,68 @@ r2_control_OBJECTS = \
 # External object files for target r2_control
 r2_control_EXTERNAL_OBJECTS =
 
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/console_process.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/dof.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/globals.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/homing.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/init.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/local_io.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/log.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/mapping.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/tools.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/utils.cpp.o
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/build.make
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libtf.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libactionlib.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libroscpp.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libtf2.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/librosconsole.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/librostime.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libcpp_common.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raven/bgu_raven_comp/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable /home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control"
-	cd /home/raven/bgu_raven_comp/src/raven2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/r2_control.dir/link.txt --verbose=$(VERBOSE)
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/console_process.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/dof.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/fwd_cable_coupling.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/get_USB_packet.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/globals.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/grav_comp.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/homing.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/init.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/inv_cable_coupling.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/local_io.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/log.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/mapping.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/network_layer.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/overdrive_detect.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/pid_control.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/put_USB_packet.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/r2_jacobian.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/r2_kinematics.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/reconfigure.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/rt_process_preempt.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/rt_raven.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/state_estimate.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/state_machine.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/t_to_DAC_val.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/tools.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/trajectory.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/update_atmel_io.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/src/raven/utils.cpp.o
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/build.make
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libtf.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libactionlib.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libroscpp.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libtf2.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/librosconsole.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/librostime.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /opt/ros/kinetic/lib/libcpp_common.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control: raven2/CMakeFiles/r2_control.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bgusigma/amit_raven/src/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX executable /home/bgusigma/amit_raven/devel/lib/raven_2/r2_control"
+	cd /home/bgusigma/amit_raven/src/raven2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/r2_control.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-raven2/CMakeFiles/r2_control.dir/build: /home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control
+raven2/CMakeFiles/r2_control.dir/build: /home/bgusigma/amit_raven/devel/lib/raven_2/r2_control
 
 .PHONY : raven2/CMakeFiles/r2_control.dir/build
 
@@ -912,10 +912,10 @@ raven2/CMakeFiles/r2_control.dir/requires: raven2/CMakeFiles/r2_control.dir/src/
 .PHONY : raven2/CMakeFiles/r2_control.dir/requires
 
 raven2/CMakeFiles/r2_control.dir/clean:
-	cd /home/raven/bgu_raven_comp/src/raven2 && $(CMAKE_COMMAND) -P CMakeFiles/r2_control.dir/cmake_clean.cmake
+	cd /home/bgusigma/amit_raven/src/raven2 && $(CMAKE_COMMAND) -P CMakeFiles/r2_control.dir/cmake_clean.cmake
 .PHONY : raven2/CMakeFiles/r2_control.dir/clean
 
 raven2/CMakeFiles/r2_control.dir/depend:
-	cd /home/raven/bgu_raven_comp/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raven/bgu_raven_comp/src /home/raven/bgu_raven_comp/src/raven2 /home/raven/bgu_raven_comp/src /home/raven/bgu_raven_comp/src/raven2 /home/raven/bgu_raven_comp/src/raven2/CMakeFiles/r2_control.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bgusigma/amit_raven/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bgusigma/amit_raven/src /home/bgusigma/amit_raven/src/raven2 /home/bgusigma/amit_raven/src /home/bgusigma/amit_raven/src/raven2 /home/bgusigma/amit_raven/src/raven2/CMakeFiles/r2_control.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : raven2/CMakeFiles/r2_control.dir/depend
 

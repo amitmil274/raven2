@@ -1,8 +1,8 @@
-# Install script for directory: /home/raven/bgu_raven_comp/src/raven2
+# Install script for directory: /home/bgusigma/amit_raven/src/raven2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/raven/bgu_raven_comp/install")
+  set(CMAKE_INSTALL_PREFIX "/home/bgusigma/amit_raven/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,71 +34,71 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/raven_2/msg" TYPE FILE FILES
-    "/home/raven/bgu_raven_comp/src/raven2/msg/raven_automove.msg"
-    "/home/raven/bgu_raven_comp/src/raven2/msg/raven_state.msg"
+    "/home/bgusigma/amit_raven/src/raven2/msg/raven_automove.msg"
+    "/home/bgusigma/amit_raven/src/raven2/msg/raven_state.msg"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/raven_2/cmake" TYPE FILE FILES "/home/raven/bgu_raven_comp/src/raven2/catkin_generated/installspace/raven_2-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/raven_2/cmake" TYPE FILE FILES "/home/bgusigma/amit_raven/src/raven2/catkin_generated/installspace/raven_2-msg-paths.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/raven/bgu_raven_comp/devel/include/raven_2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/bgusigma/amit_raven/devel/include/raven_2")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/raven/bgu_raven_comp/devel/share/roseus/ros/raven_2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/bgusigma/amit_raven/devel/share/roseus/ros/raven_2")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/raven/bgu_raven_comp/devel/share/common-lisp/ros/raven_2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/bgusigma/amit_raven/devel/share/common-lisp/ros/raven_2")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/raven/bgu_raven_comp/devel/share/gennodejs/ros/raven_2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/bgusigma/amit_raven/devel/share/gennodejs/ros/raven_2")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/raven/bgu_raven_comp/devel/lib/python2.7/dist-packages/raven_2")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/bgusigma/amit_raven/devel/lib/python2.7/dist-packages/raven_2")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/raven/bgu_raven_comp/devel/lib/python2.7/dist-packages/raven_2")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages" TYPE DIRECTORY FILES "/home/bgusigma/amit_raven/devel/lib/python2.7/dist-packages/raven_2")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/raven_2" TYPE FILE FILES "/home/raven/bgu_raven_comp/devel/include/raven_2/Raven2Config.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/raven_2" TYPE FILE FILES "/home/bgusigma/amit_raven/devel/include/raven_2/Raven2Config.h")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/raven_2" TYPE FILE FILES "/home/raven/bgu_raven_comp/devel/lib/python2.7/dist-packages/raven_2/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/raven_2" TYPE FILE FILES "/home/bgusigma/amit_raven/devel/lib/python2.7/dist-packages/raven_2/__init__.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/raven/bgu_raven_comp/devel/lib/python2.7/dist-packages/raven_2/cfg")
+  execute_process(COMMAND "/usr/bin/python" -m compileall "/home/bgusigma/amit_raven/devel/lib/python2.7/dist-packages/raven_2/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/raven_2" TYPE DIRECTORY FILES "/home/raven/bgu_raven_comp/devel/lib/python2.7/dist-packages/raven_2/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python2.7/dist-packages/raven_2" TYPE DIRECTORY FILES "/home/bgusigma/amit_raven/devel/lib/python2.7/dist-packages/raven_2/cfg")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/raven/bgu_raven_comp/src/raven2/catkin_generated/installspace/raven_2.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/bgusigma/amit_raven/src/raven2/catkin_generated/installspace/raven_2.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/raven_2/cmake" TYPE FILE FILES "/home/raven/bgu_raven_comp/src/raven2/catkin_generated/installspace/raven_2-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/raven_2/cmake" TYPE FILE FILES "/home/bgusigma/amit_raven/src/raven2/catkin_generated/installspace/raven_2-msg-extras.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/raven_2/cmake" TYPE FILE FILES
-    "/home/raven/bgu_raven_comp/src/raven2/catkin_generated/installspace/raven_2Config.cmake"
-    "/home/raven/bgu_raven_comp/src/raven2/catkin_generated/installspace/raven_2Config-version.cmake"
+    "/home/bgusigma/amit_raven/src/raven2/catkin_generated/installspace/raven_2Config.cmake"
+    "/home/bgusigma/amit_raven/src/raven2/catkin_generated/installspace/raven_2Config-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/raven_2" TYPE FILE FILES "/home/raven/bgu_raven_comp/src/raven2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/raven_2" TYPE FILE FILES "/home/bgusigma/amit_raven/src/raven2/package.xml")
 endif()
 

@@ -1,8 +1,8 @@
-prefix=/home/raven/bgu_raven_comp/install
+prefix=/home/bgusigma/amit_raven/install
 
 Name: raven_2
 Description: Description of raven_2
 Version: 0.1.0
-Cflags: -I/home/raven/bgu_raven_comp/install/include
-Libs: -L/home/raven/bgu_raven_comp/install/lib 
+Cflags: -I/home/bgusigma/amit_raven/install/include
+Libs: -L/home/bgusigma/amit_raven/install/lib 
 Requires: roscpp dynamic_reconfigure tf

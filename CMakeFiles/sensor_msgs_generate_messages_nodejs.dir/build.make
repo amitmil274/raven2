@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raven/bgu_raven_comp/src
+CMAKE_SOURCE_DIR = /home/bgusigma/amit_raven/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raven/bgu_raven_comp/src
+CMAKE_BINARY_DIR = /home/bgusigma/amit_raven/src
 
 # Utility rule file for sensor_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ raven2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build: sensor_msgs_ge
 .PHONY : raven2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/build
 
 raven2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/raven/bgu_raven_comp/src/raven2 && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/bgusigma/amit_raven/src/raven2 && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : raven2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 raven2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/raven/bgu_raven_comp/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raven/bgu_raven_comp/src /home/raven/bgu_raven_comp/src/raven2 /home/raven/bgu_raven_comp/src /home/raven/bgu_raven_comp/src/raven2 /home/raven/bgu_raven_comp/src/raven2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bgusigma/amit_raven/src && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bgusigma/amit_raven/src /home/bgusigma/amit_raven/src/raven2 /home/bgusigma/amit_raven/src /home/bgusigma/amit_raven/src/raven2 /home/bgusigma/amit_raven/src/raven2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : raven2/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
 

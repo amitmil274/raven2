@@ -10,4 +10,7 @@ set(raven_2_EXEC_DEPENDS "message_runtime" "roscpp" "std_msgs" "sensor_msgs" "ge
 set(raven_2_RUN_DEPENDS "message_runtime" "roscpp" "std_msgs" "sensor_msgs" "geometry_msgs" "visualization_msgs" "tf" "dynamic_reconfigure")
 set(raven_2_TEST_DEPENDS )
 set(raven_2_DOC_DEPENDS "doxygen")
+set(raven_2_URL_WEBSITE "http://ros.org/wiki/raven_2")
+set(raven_2_URL_BUGTRACKER "")
+set(raven_2_URL_REPOSITORY "")
 set(raven_2_DEPRECATED "")

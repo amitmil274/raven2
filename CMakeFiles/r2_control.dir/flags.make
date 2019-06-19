@@ -6,5 +6,5 @@ CXX_FLAGS =  -Wall -g
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"raven_2\"
 
-CXX_INCLUDES = -I/home/raven/bgu_raven_comp/devel/include -I/home/raven/bgu_raven_comp/src/raven2/include -I/home/raven/bgu_raven_comp/src/raven2/include/raven -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/bgusigma/amit_raven/devel/include -I/home/bgusigma/amit_raven/src/raven2/include -I/home/bgusigma/amit_raven/src/raven2/include/raven -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

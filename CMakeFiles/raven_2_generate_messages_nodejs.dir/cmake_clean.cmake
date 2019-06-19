@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/raven_2_generate_messages_nodejs"
-  "/home/raven/bgu_raven_comp/devel/share/gennodejs/ros/raven_2/msg/raven_state.js"
-  "/home/raven/bgu_raven_comp/devel/share/gennodejs/ros/raven_2/msg/raven_automove.js"
+  "/home/bgusigma/amit_raven/devel/share/gennodejs/ros/raven_2/msg/raven_automove.js"
+  "/home/bgusigma/amit_raven/devel/share/gennodejs/ros/raven_2/msg/raven_state.js"
 )
 
 # Per-language clean rules from dependency scanning.

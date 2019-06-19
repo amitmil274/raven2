@@ -29,8 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/r2_control.dir/src/raven/update_device_state.cpp.o"
   "CMakeFiles/r2_control.dir/src/raven/USB_init.cpp.o"
   "CMakeFiles/r2_control.dir/src/raven/utils.cpp.o"
-  "/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control.pdb"
-  "/home/raven/bgu_raven_comp/devel/lib/raven_2/r2_control"
+  "/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control.pdb"
+  "/home/bgusigma/amit_raven/devel/lib/raven_2/r2_control"
 )
 
 # Per-language clean rules from dependency scanning.
