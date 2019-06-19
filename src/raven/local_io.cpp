@@ -469,7 +469,7 @@ void teleopCallback(raven_2::raven_automove msg) {
         for (int k = 0; k < 3; k++) data1.rd[armidx].R[j][k] = rot_mx_temp[j][k];
     }
   }
-
+data1.surgeon_mode = msg.surgeon_mode; // TODO UPDATE RUNLEVEL IN AUTOMOVE TO SURGEON_MODE i.e. ENGAGED OR DISENGAGED
   pthread_mutex_unlock(&data1Mutex);
   isUpdated = TRUE;
 }
