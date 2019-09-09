@@ -57,7 +57,7 @@
 // Our choice of the safety level and policy for RAVEN teleoperation
 #define SAFETY_POLICY SOFT_REGULATION  // User can change this! (this value is used in
                                        // overdrive_detect.cpp)
-#define SAFETY_LEVEL MODERATE_MODE     // User can change this! (this value is used in init.cpp)
+#define SAFETY_LEVEL ADVANCED_MODE     // User can change this! (this value is used in init.cpp)
                                        // CHOICES: BEGINNER, MODERATE, ADVANCED
 
 //~~~~~~~~ Other settings, experts only ~~~~~~~~~~~~
@@ -356,9 +356,9 @@
 
 #define SHOULDER_HOME_ANGLE M_PI / 6
 #define ELBOW_HOME_ANGLE M_PI / 2
-#define Z_INS_HOME_ANGLE 0.4
+#define Z_INS_HOME_ANGLE 0.35
 #define TOOL_ROT_HOME_ANGLE 0
-#define WRIST_HOME_ANGLE 0
+#define WRIST_HOME_ANGLE M_PI / 3
 #define GRASP1_HOME_ANGLE M_PI / 4
 #define GRASP2_HOME_ANGLE M_PI / 4
 

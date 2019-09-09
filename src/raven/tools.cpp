@@ -298,9 +298,9 @@ void tool::set_home_angles() {
 
     case bipolar_forceps:
       rot_home_angle = 0;
-      wrist_home_angle = 0;
-      grasp1_home_angle = 45 DEG2RAD;
-      grasp2_home_angle = 45 DEG2RAD;
+      wrist_home_angle = -45 DEG2RAD;
+      grasp1_home_angle = 60 DEG2RAD;
+      grasp2_home_angle = 60 DEG2RAD;
       break;
 
     case cardiere_forceps:
